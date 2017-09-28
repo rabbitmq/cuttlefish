@@ -13,3 +13,4 @@ log
 src/cuttlefish_duration_parse.erl
 erln8.config
 test_fixtures/escript_prune_test/generated.config/*
+_build/*
