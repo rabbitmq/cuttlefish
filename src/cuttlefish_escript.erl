@@ -244,7 +244,7 @@ generate(ParsedArgs) ->
         {true, true} ->
             lager:info("~s and ~s exists, disabling cuttlefish.", [ExistingAppConfigName, ExistingVMArgsName]),
             lager:info("If you'd like to know more about cuttlefish, check your local library!", []),
-            lager:info(" or see http://github.com/basho/cuttlefish", []),
+            lager:info(" or see https://github.com/basho/cuttlefish", []),
             {ExistingAppConfigName, ExistingVMArgsName};
         {true, false} ->
             lager:info("~s exists, generating vm.args", [ExistingAppConfigName]),

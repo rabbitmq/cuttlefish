@@ -100,7 +100,7 @@ ceiling(X) ->
     end.
 
 %% Levenshtein code by Adam Lindberg, Fredrik Svensson via
-%% http://www.trapexit.org/String_similar_to_(Levenshtein)
+%% https://erlangcentral.org/wiki/index.php/String_similar_to_(Levenshtein)
 %%
 %%------------------------------------------------------------------------------
 %% @spec levenshtein(StringA :: string(), StringB :: string()) -> integer()

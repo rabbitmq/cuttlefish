@@ -1187,7 +1187,7 @@ end}.
 %% 32mb may not be sufficient for some workloads and is a suggested
 %% starting point.
 %% The Erlang/OTP default is 1024 (1 megabyte).
-%% See: http://www.erlang.org/doc/man/erl.html#%2bzdbbl
+%% See: https://www.erlang.org/doc/man/erl.html#%2bzdbbl
 {mapping, "erlang.zdouble", "vm_args.+zdbbl", [
   {commented, "32MB"},
   {datatype, bytesize}
